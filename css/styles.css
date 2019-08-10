@@ -2,3 +2,7 @@ html {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-size: 10px;
 }
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
