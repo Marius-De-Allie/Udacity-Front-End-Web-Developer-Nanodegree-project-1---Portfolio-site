@@ -13,3 +13,6 @@ main {
   float: left;
   margin-right: 2.3em;
 }
+#introimg-container img {
+  max-width: 360px;
+}
