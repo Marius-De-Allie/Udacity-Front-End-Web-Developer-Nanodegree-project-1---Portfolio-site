@@ -26,3 +26,6 @@ main {
 .projects-container figure {
   margin-left: 0;
 }
+.project img {
+  border-radius: 15px;
+}
