@@ -19,3 +19,6 @@ main {
 .project-image {
   width: 280px;
 }
+.lower-content {
+  display: flex;
+}
