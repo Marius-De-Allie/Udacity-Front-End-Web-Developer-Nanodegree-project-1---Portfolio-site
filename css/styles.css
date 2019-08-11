@@ -21,6 +21,8 @@ main {
 }
 .lower-content {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 .projects-container figure {
   margin-left: 0;
