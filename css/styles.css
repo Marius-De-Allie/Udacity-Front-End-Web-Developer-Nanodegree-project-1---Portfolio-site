@@ -2,6 +2,11 @@ html {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-size: 10px;
 }
+h1 {
+  font-family: 'Barriecito', cursive;
+  font-size: 3.2rem;
+  text-transform: capitalize;
+}
 body {
   max-width: 900px;
   margin: 0 auto;
