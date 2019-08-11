@@ -17,7 +17,7 @@ main {
   max-width: 360px;
 }
 .project-image {
-  width: 280px;
+  max-width: 280px;
 }
 .lower-content {
   display: flex;
