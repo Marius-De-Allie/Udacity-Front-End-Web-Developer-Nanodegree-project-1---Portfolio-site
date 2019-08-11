@@ -3,7 +3,7 @@ html {
   font-size: 10px;
 }
 body {
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
 }
 main {
@@ -21,4 +21,7 @@ main {
 }
 .lower-content {
   display: flex;
+}
+.projects-container figure {
+  margin-left: 0;
 }
