@@ -16,3 +16,6 @@ main {
 #introimg-container img {
   max-width: 360px;
 }
+.project-image {
+  width: 280px;
+}
