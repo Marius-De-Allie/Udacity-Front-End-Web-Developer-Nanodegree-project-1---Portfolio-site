@@ -2,6 +2,9 @@ html {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-size: 10px;
 }
+header {
+  background-color: #B2BCBE;
+}
 h1 {
   font-family: 'Barriecito', cursive;
   font-size: 3.2rem;
