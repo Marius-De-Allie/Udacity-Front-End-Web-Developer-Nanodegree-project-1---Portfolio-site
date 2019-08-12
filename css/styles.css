@@ -12,6 +12,10 @@ h1 {
   background-color: #B2BCBE;
   border-bottom: 1px solid #3B3D49;
 }
+h1, .nav, main {
+  max-width: 950px;
+  margin: 0 auto;
+}
 #nav-items li {
   font-size: 1.8rem;
   list-style: none;
