@@ -6,7 +6,8 @@ h1 {
   font-family: 'Barriecito', cursive;
   font-size: 3.2rem;
   text-transform: capitalize;
-  background-color: #B2BCBE; 
+  background-color: #B2BCBE;
+  border-bottom: 1px solid #3B3D49;
 }
 #nav-items li {
   font-size: 1.8rem;
