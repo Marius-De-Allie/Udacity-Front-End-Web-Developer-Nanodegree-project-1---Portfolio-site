@@ -18,6 +18,9 @@ h1, .nav, main {
   max-width: 950px;
   margin: 0 auto;
 }
+#nav-bar-container {
+  border-top: 1px solid #3B3D49;
+}
 #nav-items li {
   font-size: 1.8rem;
   list-style: none;
