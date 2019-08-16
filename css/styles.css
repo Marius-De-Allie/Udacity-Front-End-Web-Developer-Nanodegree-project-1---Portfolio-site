@@ -34,6 +34,7 @@ h1, .nav, main {
 }
 main {
   font-size: 1.8rem;
+  margin-bottom: 1.5em;
 }
 #introimg-container {
   float: left;
