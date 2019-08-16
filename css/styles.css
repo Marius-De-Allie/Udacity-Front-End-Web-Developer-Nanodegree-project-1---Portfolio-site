@@ -58,3 +58,7 @@ main {
 img {
   max-width: 100%;
 }
+footer {
+  background-color: #B2BCBE;
+  height: 150px;
+}
