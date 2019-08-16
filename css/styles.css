@@ -63,3 +63,6 @@ footer {
   background-color: #B2BCBE;
   height: 150px;
 }
+footer span:nth-of-type(2) {
+  float: right;
+}
