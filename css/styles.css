@@ -43,6 +43,9 @@ main {
 #introimg-container img {
   max-width: 360px;
 }
+.intro-text {
+  line-height: 1.5;
+}
 .project-image {
   max-width: 280px;
 }
