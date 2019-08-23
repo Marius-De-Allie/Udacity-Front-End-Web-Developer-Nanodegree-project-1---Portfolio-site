@@ -13,6 +13,7 @@ h1 {
   font-size: 3.2rem;
   text-transform: capitalize;
   background-color: #B2BCBE;
+  letter-spacing: .25rem;
 }
 h1, .nav, main {
   max-width: 950px;
