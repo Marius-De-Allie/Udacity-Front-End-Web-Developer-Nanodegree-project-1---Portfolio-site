@@ -40,6 +40,12 @@ main {
   font-size: 1.8rem;
   margin-bottom: 1.5em;
 }
+main .upper-content {
+  box-shadow: 0px 5px 20px gray;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 2em;
+}
 #introimg-container {
   float: left;
   margin-right: 2.3em;
