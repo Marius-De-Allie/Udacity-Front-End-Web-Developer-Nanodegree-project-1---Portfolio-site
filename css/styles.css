@@ -21,6 +21,7 @@ h1, .nav, main {
 }
 #nav-bar-container {
   border-top: 1px solid #3B3D49;
+  background-color: gray;
 }
 #nav-items {
   margin-left: -4em;
