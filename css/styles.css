@@ -19,10 +19,6 @@ h1, .nav div, main {
   max-width: 950px;
   margin: 0 auto;
 }
-#nav-bar-container {
-  border-top: 1px solid #3B3D49;
-  background-color: gray;
-}
 #nav-items {
   margin-left: -4em;
 }
