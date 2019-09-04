@@ -24,6 +24,7 @@ h1, .nav div, main {
 }
 #nav-items {
   margin-left: -4em;
+  width: 100%;
 }
 #nav-items li {
   font-size: 1.8rem;
