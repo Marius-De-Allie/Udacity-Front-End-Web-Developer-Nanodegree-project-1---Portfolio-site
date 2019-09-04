@@ -36,6 +36,7 @@ h1, .nav div, main {
 }
 #nav-items li .nav-links {
   text-decoration: none;
+  line-height: 3;
 }
 main {
   font-size: 1.8rem;
