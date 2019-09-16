@@ -19,6 +19,10 @@ h1, .nav div, main {
   max-width: 950px;
   margin: 0 auto;
 }
+.nav {
+  width: 100%;
+  background-color: gray; 
+}
 .nav div {
   background-color: gray;
 }
