@@ -40,6 +40,7 @@ h1, .nav div, main {
   outline: none;
   display: inline-block;
   line-height: 3;
+  width: 10%;
   color: white;
 }
 main {
