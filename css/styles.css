@@ -41,6 +41,7 @@ h1, .nav div, main {
 #nav-items li .nav-links {
   text-decoration: none;
   outline: none;
+  display: inline-block;
   line-height: 3;
 }
 main {
