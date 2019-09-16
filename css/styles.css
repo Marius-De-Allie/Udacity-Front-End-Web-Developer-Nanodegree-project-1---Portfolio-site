@@ -35,9 +35,6 @@ h1, .nav div, main {
   list-style: none;
   display: inline;
 }
-#nav-items li:nth-of-type(1), #nav-items li:nth-of-type(2) {
-  margin-right: 3rem;
-}
 #nav-items li .nav-links {
   text-decoration: none;
   outline: none;
