@@ -38,6 +38,8 @@ h1, .nav div, main {
   line-height: 3;
   width: 10%;
   color: white;
+  background-color: gray;
+  text-align: center
 }
 main {
   font-size: 1.8rem;
