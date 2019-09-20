@@ -22,9 +22,6 @@ h1, .nav div, main {
 .nav {
   width: 100%;
 }
-.nav div {
-  background-color: gray;
-}
 #nav-items {
   margin-left: -4em;
   width: 100%;
