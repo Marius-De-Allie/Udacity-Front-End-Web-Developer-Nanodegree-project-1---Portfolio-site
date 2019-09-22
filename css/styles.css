@@ -41,6 +41,9 @@ h1, .nav div, main {
   background-color: gray;
   text-align: center
 }
+#nav-items li .nav-links:link, #nav-items li .nav-links:visited {
+  background: gray;
+}
 main {
   font-size: 1.8rem;
   margin-bottom: 1.5em;
