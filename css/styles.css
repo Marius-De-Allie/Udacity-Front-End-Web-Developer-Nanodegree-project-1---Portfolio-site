@@ -48,6 +48,9 @@ h1, .nav div, main {
   background: gray;
   outline: 3px solid teal;
 }
+#nav-items li .nav-links:hover {
+  background-color: teal;
+}
 main {
   font-size: 1.8rem;
   margin-bottom: 1.5em;
