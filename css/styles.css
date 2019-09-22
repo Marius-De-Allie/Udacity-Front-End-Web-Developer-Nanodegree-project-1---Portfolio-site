@@ -44,6 +44,10 @@ h1, .nav div, main {
 #nav-items li .nav-links:link, #nav-items li .nav-links:visited {
   background: gray;
 }
+#nav-items li .nav-links:focus {
+  background: gray;
+  outline: 3px solid teal;
+}
 main {
   font-size: 1.8rem;
   margin-bottom: 1.5em;
