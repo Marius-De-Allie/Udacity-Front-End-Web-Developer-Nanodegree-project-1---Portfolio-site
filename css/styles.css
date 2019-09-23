@@ -51,6 +51,11 @@ h1, .nav div, main {
 #nav-items li .nav-links:hover {
   background-color: teal;
 }
+#nav-items li .nav-links:active {
+  background-color: #1d62db;
+  outline: none;
+  color: white;
+}
 main {
   font-size: 1.8rem;
   margin-bottom: 1.5em;
