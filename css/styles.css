@@ -49,7 +49,7 @@ h1, .nav div, main {
   outline: 3px solid teal;
 }
 #nav-items li .nav-links:hover {
-  background-color: teal;
+  background-color: #f7bf25;
 }
 #nav-items li .nav-links:active {
   background-color: #1d62db;
