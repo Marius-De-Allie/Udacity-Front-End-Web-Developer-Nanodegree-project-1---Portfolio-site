@@ -52,7 +52,7 @@ h1, .nav div, main {
   outline: 3px solid teal;
 }
 #nav-items li .nav-links:hover {
-  background-color: #f7bf25;
+  background-color: black;
 }
 #nav-items li .nav-links:active {
   background-color: black;
