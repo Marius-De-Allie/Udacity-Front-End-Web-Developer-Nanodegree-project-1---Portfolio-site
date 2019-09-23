@@ -52,7 +52,7 @@ h1, .nav div, main {
   background-color: #f7bf25;
 }
 #nav-items li .nav-links:active {
-  background-color: #1d62db;
+  background-color: black;
   outline: none;
   color: white;
 }
