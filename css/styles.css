@@ -21,6 +21,7 @@ h1, .nav div, main {
 }
 .nav {
   width: 100%;
+  background-color: gray;
 }
 #nav-items {
   margin: 0;
