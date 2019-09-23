@@ -32,6 +32,7 @@ h1, .nav div, main {
   font-size: 1.8rem;
   list-style: none;
   display: inline;
+  margin-right: -0.3rem;
 }
 #nav-items li .nav-links {
   text-decoration: none;
