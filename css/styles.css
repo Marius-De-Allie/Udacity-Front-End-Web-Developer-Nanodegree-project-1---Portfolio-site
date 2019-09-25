@@ -23,18 +23,18 @@ h1, .mynav div, main {
   width: 100%;
   background-color: gray;
 }
-#nav-items {
+#mynav-items {
   margin: 0;
   width: 100%;
   padding: 0;
 }
-#nav-items li {
+#mynav-items li {
   font-size: 1.8rem;
   list-style: none;
   display: inline;
   margin-right: -0.3rem;
 }
-#nav-items li .nav-links {
+#mynav-items li .nav-links {
   text-decoration: none;
   outline: none;
   display: inline-block;
@@ -44,17 +44,17 @@ h1, .mynav div, main {
   background-color: gray;
   text-align: center;
 }
-#nav-items li .nav-links:link, #nav-items li .nav-links:visited {
+#mynav-items li .nav-links:link, #mynav-items li .nav-links:visited {
   background: gray;
 }
-#nav-items li .nav-links:focus {
+#mynav-items li .nav-links:focus {
   background: gray;
   outline: 3px solid teal;
 }
-#nav-items li .nav-links:hover {
+#mynav-items li .nav-links:hover {
   background-color: black;
 }
-#nav-items li .nav-links:active {
+#mynav-items li .nav-links:active {
   background-color: black;
   outline: none;
   color: white;
