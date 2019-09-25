@@ -15,7 +15,7 @@ h1 {
   background-color: #B2BCBE;
   letter-spacing: .25rem;
 }
-h1, .nav div, main {
+h1, .mynav div, main {
   max-width: 950px;
   margin: 0 auto;
 }
