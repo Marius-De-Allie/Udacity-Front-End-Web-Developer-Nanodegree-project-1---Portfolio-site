@@ -34,7 +34,7 @@ h1, .mynav div, main {
   display: inline;
   margin-right: -0.3rem;
 }
-#mynav-items li .nav-links {
+#mynav-items li .mynav-links {
   text-decoration: none;
   outline: none;
   display: inline-block;
@@ -44,17 +44,17 @@ h1, .mynav div, main {
   background-color: gray;
   text-align: center;
 }
-#mynav-items li .nav-links:link, #mynav-items li .nav-links:visited {
+#mynav-items li .mynav-links:link, #mynav-items li .mynav-links:visited {
   background: gray;
 }
-#mynav-items li .nav-links:focus {
+#mynav-items li .mynav-links:focus {
   background: gray;
   outline: 3px solid teal;
 }
-#mynav-items li .nav-links:hover {
+#mynav-items li .mynav-links:hover {
   background-color: black;
 }
-#mynav-items li .nav-links:active {
+#mynav-items li .mynav-links:active {
   background-color: black;
   outline: none;
   color: white;
