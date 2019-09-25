@@ -19,7 +19,7 @@ h1, .mynav div, main {
   max-width: 950px;
   margin: 0 auto;
 }
-.nav {
+.mynav {
   width: 100%;
   background-color: gray;
 }
