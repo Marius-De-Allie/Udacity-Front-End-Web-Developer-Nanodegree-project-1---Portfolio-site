@@ -8,12 +8,14 @@ body {
 header {
   background-color: #B2BCBE;
 }
+/* Header Text Styling */
 h1 {
   font-family: 'Barriecito', cursive;
   font-size: 3.2rem;
   text-transform: capitalize;
   background-color: #B2BCBE;
   letter-spacing: .25rem;
+  font-weight: 900;
 }
 h1, div, main {
   max-width: 950px;
