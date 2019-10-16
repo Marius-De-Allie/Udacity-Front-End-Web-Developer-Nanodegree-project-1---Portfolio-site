@@ -70,6 +70,7 @@ h1, div, main {
   font-family: 'Raleway', helvetica, arial, sans-serif;
   font-size: 1.8rem;
   box-shadow: 7px 5px 20px gray;
+  background: url("../images/5.jpg") center center / cover no-repeat;
 }
 main {
   font-size: 1.8rem;
