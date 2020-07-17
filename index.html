@@ -8,142 +8,338 @@
     portfolio site showcasing front end web dev projects built using HTML5 CSS
     and JavaScript as part of Udacity's Front end web developer nanodegree
     program and also showcasing projects done independently">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
     <link rel="stylesheet" href=
-    "https://fonts.googleapis.com/css?family=Barriecito|Raleway&display=swap">
+    "https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap"> <!-- 34 commit - update href value in webfonts link element -->
     <link rel="stylesheet" href="css/styles.css">
     <title></title>
   </head>
+  
   <body>
-    <header class="site-header">
-      <h1 class="header-text">Marius De Allie<br>Front End Web Developer</h1>
-    </header>
-    <nav class="mynav">
+    <div class="ui container">
+      <h1 class="ui grey header" id="main-header">
+        <i class="code branch icon green"></i>
+        <div class="content">
+          Marius De Allie
+          <div class="sub header">Front End Web Developer</div>
+        </div>
+      </h1>
+      <!-- <header class="site-header">
+        <h1 class="header-text">Marius De Allie<br>Front End Web Developer</h1>
+      </header> -->
+      <!-- <div class="ui labeled icon menu" id="nav-menu">
+        <a class="green item active" href="#About-header">
+          <i class="home icon"></i>
+          Home
+        </a>
+        <a class="green item" href="#project-cards">
+          <i class="folder open icon"></i>
+          Projects
+        </a>
+        <a class="green item" href="#footer-contact">
+          <i class="address card icon"></i>
+          Contact
+        </a>
+      </div> -->
+      <div class="ui secondary pointing menu" id="nav-menu">
+        <a class="item green active" href="#About-header">
+          <i class="home icon"></i>
+          Home
+        </a>
+        <a class="item green" href="#project-header">
+          <i class="folder open icon"></i>
+          Projects
+        </a>
+        <a class="item green" href="#footer-contact">
+          <i class="address card icon"></i>
+          Contact
+        </a>
+      </div>
+    <!-- <nav class="mynav">
       <div id="menu-items-container">
         <ul id="mynav-items">
-          <li><a class="mynav-links" href="#" title="Marius De Allie Homepage">Home</a></li>
-          <li><a class="mynav-links" href="projects.html" title="projects page">Projects</a></li>
-          <li><a class="mynav-links" href="contact.html" title="Contact info page">Contact</a></li>
+          <li><a class="mynav-links" id="active" href="#" title="Marius De Allie Homepage">Home</a></li> 
+          <li><a class="mynav-links" href="#projects-section" title="projects page">Projects</a></li> 
+          <li><a class="mynav-links" href="#footer-contact" title="Contact info page">Contact</a></li> 
         </ul>
       </div>
-    </nav>
-    <main class="main-content">
-      <section class="jumbotron mt-5">
-        <h2 class="display-4">Marius De Allie</h2>
-        <p class="lead">Highly driven and passionate front end developer.</p>
-        <hr class="my-4">
-        <p>View my projects.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Projects</a>
-      </section>
-      <article class="upper-content">
-        <section id="introimg-container">
-          <img src="images/www.maxpixel.net-Html-Suit-Css-Web-Designer-Web-Designer-3157323.jpg"
-          alt="man standing with hand stretched out to web developer logo circles">
+    </nav> -->
+
+    
+    <!-- <main class="main-content"> -->
+      <h2 class="ui green header" id="About-header">
+        <i class="user outline icon"></i>
+        <div class="content">
+          About Me
+        </div>
+      </h2>
+      <article class="divider"> <!-- 11 Commit - add new article element to hold page divider content -->
+        <!-- 14 Commit add new section element with divider hor line -->
+        <section id="divider-line">
+          <!-- 15 commit - add new hr element between content -->
+          <hr class="my-4" id="main-divider">
         </section>
-        <p class="intro-text">My name is Marius De Allie and I am a Front end web
-          developer. I am very passionate about web and software development.
-          I was attracted to development because I enjoy creating things and love problem solving.
-        </P>
-        <p class="intro-text">
-          I initially got exposed to development/programming way back in high school when
-          my IT class at the time started coding in the Microsoft QBasic language. For several I
-          was not focused on development/coding, as I worked in a various IT support roles within
-          the retail, engineering and food processing industires.Througout those years working in IT
-          support I was not drawn back to development,
-          until around the year 2016, when I began doing some SQL databse querying and fell in love
-          with it, as a result I proceeded to get
-          Microsoft certfiications in T-SQL 2012 and T-SQL 2016 Querying and development.
-        </p>
-        <p class="intro-text">
-          This began the process toward my new found love for development and coding. I was
-          very much attracted to the problem solving aspect of SQL querying and as a result
-          that opened my eyes to other programming languages. Eventually this curiousity
-          and passion to delve deeper into programming/development lead me to begin learning Microsoft
-          C# as my first object oriented language in late 2018. From there I discovered Udacity's
-          excellent Nanodegree programs that focused on different disciples of tech.
-          I enrolled in Udacity's Intro to programming 4 month Nanodegree program so that I could get a
-          more formal introduction to general programming before deciding on an area or language to specialize in.
-        </p>
-        <p class="intro-text">
-          Upon completing the intro to programming Nanodegree is when I reached that turning point,
-          I had a revelation, this was what I wanted to do for the rest of my life...I wanted to be a developer.
-          This is when I made the committment to becoming a full time time developer and was
-          ready and very excited to move forward on this new adventure. I enrolled in Udacity's Front End Web developer
-          Nanodegree and soon fell in love with JavaScript and my love for development grew even more.
-        </p>
-        <p class="intro-text">
-          I am so very passionate about web and software development.
-          I really enjoy taking on new challenges and finding solutions to problems
-          that are presented to me. It is this problem solving aspect of development
-          that really appealed to me and led to my great love and passion for
-          coding. The ability to be able to create apps/websites that can be
-          consumed by others and to have my work have an impact on others is a great feeling.
-        </p>
-        <p class="intro-text">
-          I feel that development/programming is one of the few career paths that would afford me the
-          opportunity to remain engaged and be challenged for many many years to come.
-          The fact that as a developer you are always learning
-          and honing your skills, no matter how many years of experience you
-          have, you are always learning new components of your primary programming
-          language, as well as always finding ways to make you code more efficient and learning
-          new languages, frameworks, libraries, etc.
-          Another very appealing aspect of development for me is, the fact that to get to the same objective or end goal,
-          there are many different routes you can take which allows you to bring your own personal
-          touch to your code and creations.
-        </p>
-      </article>
-      <article class="lower-content">
-        <section class="projects-container">
-          <h2 class="project-title">Project 1</h2>
-          <figure class="project one">
-            <a class="project-link" id="project-one-link" href="#" title="Project one more info">
-              <img class="project-image" src="http://lorempixel.com/640/360" alt="Project one">
-            </a>
-            <figcaption>Image credits</figcaption>
-          </figure>
-        </section>
-        <section id="project-two-container" class="projects-container">
-          <h2 class="project-title">Project 2</h2>
-          <figure class="project two">
-            <a class="project-link" id="project-two-link" href="#" title="Project two more info">
-              <img class="project-image" src="http://lorempixel.com/640/360" alt="Project two">
-            </a>
-            <figcaption>Image credits</figcaption>
-          </figure>
-        </section>
-        <section id="project-three-container" class="projects-container">
-          <h2 class="project-title">Project 3</h2>
-          <figure class="project three">
-            <a class="project-link" id="project-three-link" href="#" title="Project three more info">
-              <img class="project-image" src="http://lorempixel.com/640/360" alt="Project three">
-            </a>
-            <figcaption>Image credits</figcaption>
-          </figure>
+        <!-- 12 commit - add new section to hold divider line content -->
+        <section class="divider-text-container">
+          <!-- 13 Commit add new h3 element with divider text -->
         </section>
       </article>
-      <span id="more-projects-text">
+      <div class="ui cards">
+        <div class="ui fluid card">
+          <div class="content">
+            <a class="ui green ribbon label" id="who" href="https://www.linkedin.com/in/mariusdeallie/" target="_blank">Who Am I</a>
+            <p></p>
+            <!-- <div class="meta">Friend</div> -->
+            <div class="description">
+              <p id="name-text">Marius De Allie,</p>
+
+              highly driven and passionate front end developer, with a focus on JavaScript and React.
+              Proficient in vanilla JavaScript ES5, ES6+, HTML5, CSS3, React, Redux, React Router. Also very well versed in the use of popular tooling platforms such as webpack.
+              Adept in the use of NPM, Git version control, SASS, the terminal for scripting during the dev process and SQL querying.
+              I am passionate about problem solving and revel in the challenge and process of "attacking" a problem that needs solving through the use of technology (software developement). For me it is always a fun and engaging experience, going through the process of building out an application
+              or project from scratch, in most cases it is far from easy and always challenging, but I always come out of it being a stronger, more capable developer than I went in. That is one of the things that keeps me so passionate about development, it is that never ending quest to get better and make your code cleaner and more efficient.
+              Always looking at your code and thinking to your self "I know it works perfectly fine, but how else could I have done it, how else could I acheive the same functionality using different means, how can I refactor and get my code cleaner and more concise".
+            </div>
+          </div>
+        </div>
+        <div class="ui fluid card">
+          <div class="content">
+            <a class="ui green ribbon label" id="languages">Programming Languages</a>
+            <p></p>
+
+            <!-- <div class="meta">Friend</div> -->
+            <div class="description">
+              Extremely adept at the most heavily used languages, libraries and frameworks in today's Front end development landscape and always adding to my repertoire, constantly growing and evolving with the industry as it changes.
+              JavaScript ES5 | ES6+ | ESNext, React, Redux, React-Redux, HTML5, CSS3, jQuery, BootStrap and more...
+              <div class="logos-container"> <!--70 commit - new div to hold logos -->
+                <a class="logo-links" id="js-link" href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript Wikipedia page" target="_blank"> <!--75 commit - add links for technology logos - JS-->
+                  <img src="images/128px-JavaScript-logo.png" alt="small JavaScript logo" width="64px" height="64px">
+                </a>
+                <a class="logo-links" id="react-link" href="https://reactjs.org/" title="ReactJs Homepage" target="_blank"> <!--80 commit - add links for CSS3 logo-->
+                  <img src="images/React-01.png" alt="small cyan Reactjs logo" width="74px" height="74px">
+                </a>
+                <a class="logo-links" id="html5-link" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" title="Mozilla Developer Network HTML5 page" target="_blank"> <!--79 commit - add links for html5 logo-->
+                  <img src="images/HTML5_Logo_128.png" alt="small HTML5 logo" width="64px" height="64px">
+                </a>
+                <a class="logo-links" id="css3-link" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" title="CSS3 wikipedia page" target="_blank"> <!--80 commit - add links for CSS3 logo-->
+                  <img src="images/css-128px.png" alt="small blue CSS3 logo" width="64px" height="64px">
+                </a>
+                <a class="logo-links" id="jquery-link" href="https://jquery.com/" title="jQuery official homepage" target="_blank"> <!--78 commit - add links for jquery logo -->
+                  <img src="images/jquery-icon.png" width="64px" height="64px" alt="small jQuery logo.">
+                </a>
+                <a class="logo-links" id="bootstrap-link" href="https://getbootstrap.com/" title="bootStrap official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <img src="images/bootstrap-icon.png" width="80px" height="80px" alt="small bootstrap logo.">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="ui green header" id="project-header">
+        <i class="mobile alternate icon"></i>
+        <div class="content">
+          Projects
+        </div>
+      </h2>
+      <article class="divider"> <!-- 11 Commit - add new article element to hold page divider content -->
+        <!-- 14 Commit add new section element with divider hor line -->
+        <section id="divider-line">
+          <!-- 15 commit - add new hr element between content -->
+          <hr class="my-4" id="main-divider">
+        </section>
+        <!-- 12 commit - add new section to hold divider line content -->
+        <section class="divider-text-container">
+          <!-- 13 Commit add new h3 element with divider text -->
+        </section>
+      </article>
+      <article class="lower-content ui container">
+        <div class="ui cards" id="project-cards">
+          <div class="card" id="one">
+            <!-- <a href="https://brave-goodall-94765c.netlify.com/"> -->
+              <div class="image">
+                <img src="images/architecture-black-and-white-challenge-chance-277593.jpg">
+              </div>
+              <div class="content">
+                <div class="ui green header" id="project-sub">Would You Rather</div>
+                <div class="meta">
+                <p class="stack-text">Created using: React | Redux | HTML | CSS/SCSS</p>
+                <a class="ui blue right ribbon label" href="https://reactjs.org/" target="_blank">React|Redux</a>
+                <p></p>
+                </div>
+                <div class="description">
+                  Would you rather is a single page web application developed using the React library, Redux library for application state management and react-router for app navigation. 
+                  The app allows the logged in user to answer poll questions, the user can also view results of previously answered questions. 
+                  Additionally the user has the ability to create new poll questions and view a user leaderboard.
+                </div>
+              </div>
+              <div class="extra content">
+                <!-- <div class="ui two buttons"> -->
+                  <div class="ui button">
+                    <a href="https://would-you-rather-4028c9.netlify.app/" target="_blank">
+                      <i class="check circle outline icon"></i>
+                      Launch
+                    </a>
+                  </div>
+                  <div class="ui button github">
+                    <a href="https://github.com/Marius-De-Allie/reactnd-Would-you-rather" target="_blank" title="Github link to Would you rather React|Redux project repository.">
+                      <i class="github icon"></i>
+                      GitHub 
+                    </a>
+                  </div>
+
+
+                <!-- </div> -->
+              </div>
+            <!-- </a> -->
+            </div>
+          <div class="card" id="two">
+            <!-- <a href="https://brave-goodall-94765c.netlify.com/"> -->
+              <div class="image">
+                <img src="images/rsz_book-stack-books-classic-knowledge-158834.jpg">
+              </div>
+              <div class="content">
+                <div class="ui green header" id="project-sub">My Reads</div>
+                <div class="meta">
+                <p class="stack-text">Created using: React | HTML | CSS/SCSS</p>
+                <a class="ui blue right ribbon label" href="https://reactjs.org/" target="_blank">React</a>
+                <p></p>
+                </div>
+                <div class="description">
+                  My Reads is a React single page web app, that allows the user to keep track of a list of books on 3 bookshelves,
+                  one for books currently being read, previously read and books that want to be read.
+                  App focuses on managing App state within React components, without the use of redux for state management. 
+                </div>
+              </div>
+              <div class="extra content">
+                <!-- <div class="ui two buttons"> -->
+                  <div class="ui button">
+                    <a href="https://brave-goodall-94765c.netlify.com/" target="_blank">
+                      <i class="check circle outline icon"></i>
+                      Launch
+                    </a>
+                  </div>
+                  <div class="ui button github">
+                    <a href="https://github.com/Marius-De-Allie/reactnd-project-myreads" target="_blank" title="Github link to MyReads React project repository.">
+                      <i class="github icon"></i>
+                      GitHub 
+                    </a>
+                  </div>
+
+
+                <!-- </div> -->
+              </div>
+            <!-- </a> -->
+            </div>
+
+          <div class="card" id="three">
+            <div class="image">
+              <img src="images/abstract-architecture-art-3026839.jpg">
+            </div>
+            <div class="content">
+              <div class="ui green header" id="project-sub">Memory Game</div>
+              <div class="meta">
+                <p class="stack-text">Created using: JavaScript | HTML | CSS</p>
+                <a class="ui yellow right ribbon label" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+        <p></p>
+              </div>
+              <div class="description">
+                Memory Game is a browser based web app that challenges the player to guess which are macthing cards on the game board.
+                The app leverages JavaScript event handling, DOM manipulation along with some more advanced CSS styles to acheive it's core functionality.
+              </div>
+            </div>
+            <div class="extra content">
+              <div class="ui button">
+                <a href="https://marius-de-allie.github.io/fend-project-memory-game/" target="_blank">
+                  <i class="check circle outline icon"></i>
+                  Launch
+                </a>
+              </div>
+              <div class="ui button github">
+                <a href="https://github.com/Marius-De-Allie/fend-project-memory-game" target="_blank" title="Github link to Memory game JavaScript project repository.">
+                  <i class="github icon"></i>
+                  GitHub 
+                </a>
+              </div>
+
+            </div>
+          </div>
+          <div class="card" id="four">
+            <div class="image">
+              <img src="images/3-dice.jpg">
+            </div>
+            <div class="content">
+              <div class="ui green header" id="project-sub">Dice Game</div>
+              <div class="meta">
+                <p class="stack-text">Created using: JavaScript | HTML | CSS</p>
+                <a class="ui yellow right ribbon label" href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+        <p></p>
+              </div>
+              <div class="description">
+                Dice Game is a web based game, where the objective is to try to get to the winning score of 100 points first by rolling the dice.
+                If the current player gets a dice role of 1, then they lose a turn and control goes over to the other player.
+                The current player can chose to hold their currently accumaletated score for that round and by doing so gives control to the other player.
+                This app harnesses the power of JavaScript event handlers and DOM manipulation to achieve it's core functionality.
+              </div>
+            </div>
+            <div class="extra content">
+              <div class="ui button">
+                <a id="project-link" href="https://marius-de-allie.github.io/Dice-Game---Pig/" target="_blank">
+                  <i class="check circle outline icon"></i>
+                  Launch
+                </a>
+              </div>
+              <div class="ui button github">
+                <a href="https://github.com/Marius-De-Allie/Dice-Game---Pig" target="_blank" title="Github link to Dice game JavaScript project repository.">
+                  <i class="github icon"></i>
+                  GitHub 
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- <section id="divider-container">
+
+          <hr class="my-4" id="main-divider">
+        </section> -->
+      </article>
+      <!-- 6. commit remove span below -->
+      <!-- <span id="more-projects-text">
         <a href="#" title="projects page containing all projects">
         more projects</a>
-      </span>
-    </main>
+      </span> -->
+      <!-- </main> -->
+    </div>
     <footer>
-      <span id="copyright">Developed by <a href="#"
-        title="Marius De Allie Front End Developer Guthub page.">Marius De Allie
-        </a>
-      </span>
-      <span>
-        <a id="github" href="#" title="Marius De Allie Github page">
-          <!-- Update  placeholder with image path -->
-          <img src="images/GitHub-Mark/PNG/GitHub-Mark-32px.png"
-          alt="small github octocat mark logo">
-        </a>
-        <a id="linkedin" href="#" title="Marius De Allie LinkedIn page">
-          <!-- Update  placeholder with image path -->
-          <img src="placeholder" alt="small LinkedIn logo">
-        </a>
-      </span>
+      <div class="footer-container"> <!--64 commit - add new div container for footer content-->
+        <!-- <section id="footer-text"> --><!-- 67 commit - add new section element to hold footer text -->
+          <div id="copyright-container">
+            <span id="copyright">Developed by <a href="https://www.linkedin.com/in/mariusdeallie/"
+              title="Marius De Allie Front End Developer LinkedIn page." target="_blank">Marius De Allie <!--99 Commit - update href attr. value in #copyright to linked profile--> <!-- 100 commit - update title attr. value to 'Marius De Allie Front End Developer LinkedIn page.'-->
+            </a> <!-- 101 commit add target attr. with valu eof _blank to #copyright elem-->
+            &copy2020 | All rights reserved.
+            </span>
+          </div>
+        <!-- </section> -->
+        <!-- <section id="links"> --><!-- 68 commit - add new section element to hold footer links -->
+          <div>
+            <span id="footer-contact"> <!-- 106 commit - add id attr to footer span with linkedin and github logos-->
+              <span>Contact Us <i class="hand point right outline icon"></i></span>
+              <a id="github" href="https://github.com/Marius-De-Allie" title="Marius De Allie Github page">
+                <img src="images/github-sign-64px.png" width="32px" height="32px"
+                alt="small github octocat mark logo"> <!-- 98 Commit - update img src value from images/GitHub-Mark/PNG/GitHub-Mark-32px.png-->
+              </a>
+              <a id="linkedin" href="https://www.linkedin.com/in/mariusdeallie/" title="Marius De Allie LinkedIn page">
+                <img src="images/linkedin.png" width="32px" height="32px" alt="small LinkedIn logo"> <!-- 63 commit  - update src attri of linked in image hyperlink -->
+              </a>
+            </span>
+
+          </div>
+        <!-- </section> -->
+      </div>
     </footer>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
@@ -153,5 +349,7 @@
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous">
     </script>
+    <script src="scripts/app.js"></script> <!-- 40 commit add script tag before cloisjg body tag for js script -->
   </body>
+
 </html>

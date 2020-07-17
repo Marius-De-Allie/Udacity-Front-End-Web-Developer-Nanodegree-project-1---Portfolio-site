@@ -1,116 +1,148 @@
-html {
-  font-family: 'Raleway', helvetica, arial, sans-serif;
-  font-size: 10px;
+/* body {
+  background-color: rgba(95, 98, 104, 0.191);
+} */
+
+/* #34eb58 */
+h1.header#main-header {
+  margin-top: 2rem !important;
 }
-body {
-  margin: 0;
+
+.menu#nav-menu {
+  margin-bottom: 2.5rem;
 }
-header {
+.menu#nav-menu a.active {
+  cursor: default;
 }
-/* Header Text Styling */
-h1 {
-  font-family: 'Barriecito', cursive;
-  font-size: 3.2rem;
-  text-transform: capitalize;
-  background-color: #B2BCBE;
-  letter-spacing: .25rem;
-  font-weight: 900;
+.menu#nav-menu a.item:hover {
+  color: green;
 }
-h1, div, main {
-  max-width: 950px;
-  margin: 0 auto;
+
+#name-text {
+  font-size: 14px;
+  font-weight: bold;
 }
-.mynav {
-  width: 100%;
-  background-color: gray;
+
+#who, #languages {
+  font-size: 18px;
 }
-#mynav-items {
-  margin: 0;
-  width: 100%;
-  padding: 0;
-}
-#mynav-items li {
-  font-family: 'Raleway', helvetica, arial, sans-serif;
-  font-size: 1.8rem;
-  list-style: none;
-  display: inline;
-  margin-right: -0.3rem;
-}
-#mynav-items li .mynav-links {
+
+a.label {
   text-decoration: none;
-  outline: none;
-  display: inline-block;
-  line-height: 2.5;
-  width: 10%;
-  color: white;
-  background-color: gray;
-  text-align: center;
 }
-#mynav-items li .mynav-links:link, #mynav-items li .mynav-links:visited {
-  background: gray;
-}
-#mynav-items li .mynav-links:focus {
-  background: gray;
-  outline: 3px solid teal;
-}
-#mynav-items li .mynav-links:hover {
-  background-color: black;
-}
-#mynav-items li .mynav-links:active {
-  background-color: black;
-  outline: none;
-  color: white;
-}
-/* Jumbotron styling */
-.main-content section.jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  border-radius: 5px;
-  font-family: 'Raleway', helvetica, arial, sans-serif;
-  font-size: 1.8rem;
-  box-shadow: 7px 5px 20px gray;
-  background: url("../images/5.jpg") center center / cover no-repeat;
-}
-main {
-  font-size: 1.8rem;
-  margin-bottom: 1.5em;
-}
-main .upper-content {
-  box-shadow: 0px 5px 20px gray;
-  padding: 1em;
-  border-radius: 5px;
-  margin-top: 2em;
-}
-#introimg-container {
-  float: left;
-  margin-right: 2.3em;
-}
-#introimg-container img {
-  max-width: 360px;
-}
-.intro-text {
-  line-height: 1.5;
-}
-.project-image {
-  max-width: 280px;
-}
-.lower-content {
+.logos-container {
+  padding-top: 1.5rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.projects-container figure {
-  margin-left: 0;
+
+div.logos-container a.logo-links:hover {
+  transform: scale(1.05) ;
+  transition: transform .175s;
 }
-.project img {
-  border-radius: 15px;
+/*80  commit css ruleset for logo-links selector hover pseudo class*/
+div.logos-container a.logo-links:hover {
+  filter: grayscale(80%);
+  transition: .2s;
 }
-img {
-  max-width: 100%;
+
+
+.button a{
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #32CD32 !important;
+}
+.button a:hover {
+  color: white !important;
+  
+}
+
+.cards#project-cards {
+  display: flex;
+  justify-content: center;
+}
+
+div#project-cards div.card {
+  margin-right: 3rem;
+}
+
+.header#project-header {
+  margin-top: 4rem;
+}
+#project-sub {
+  margin-bottom: .75rem;
+}
+p.stack-text {
+  margin-top: 2rem;
+  color: #0E6EB8;
+}
+
+@media screen and (max-width: 1200px) {
+  .cards#project-cards {
+    justify-content: center;
+  }
+  #project-cards #one, #project-cards #two, #project-cards #three {
+    margin-right: 2rem;
+  }
+
 }
 footer {
-  background-color: #B2BCBE;
-  height: 150px;
+  padding: 3rem;
+  margin-top: 4rem;
+  background-color:  #32CD32;
 }
-footer span:nth-of-type(2) {
-  float: right;
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+footer a {
+  color: black;
+  text-decoration: none;
+  
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none ;
+}
+
+
+#footer-contact a { 
+  display: inline-block;
+  margin: 0 .25rem;
+}
+#footer-contact a:hover {
+  transform: scale(1.05);
+  transition: transform .175s;
+}
+
+#footer-contact span {
+  padding: 0 1rem;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 672px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #copyright-container {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .extra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .extra .button {
+    margin-top: 1rem;
+  }
+}
+
