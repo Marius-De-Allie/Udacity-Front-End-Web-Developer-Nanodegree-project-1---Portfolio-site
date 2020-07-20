@@ -34,9 +34,8 @@ a.label {
   text-decoration: none;
 }
 
-#section-card {
+div.ui.cards div.ui.fluid.card#section-card, div.ui.cards div.ui.fluid.card {
   background-color: #F9F9FB;
-
 }
 .logos-container {
   padding-top: 1.5rem;
@@ -131,11 +130,11 @@ div.logos-container a.logo-links div.skill-cards p.skill-text {
 .cards#project-cards {
   display: flex;
   justify-content: center;
-}
-
-div#project-cards div.card {
-  margin-right: 3rem;
-}
+   div.card {
+    margin-right: 3rem;
+    background-color: #F9F9FB;
+  }
+};
 
 .header#project-header {
   margin-top: 4rem;

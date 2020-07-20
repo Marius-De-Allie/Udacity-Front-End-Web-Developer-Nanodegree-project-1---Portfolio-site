@@ -35,7 +35,7 @@ a.label {
   text-decoration: none;
 }
 
-#section-card {
+div.ui.cards div.ui.fluid.card#section-card, div.ui.cards div.ui.fluid.card {
   background-color: #F9F9FB;
 }
 
@@ -118,9 +118,9 @@ div.logos-container a.logo-links div.skill-cards p.skill-text {
   display: flex;
   justify-content: center;
 }
-
-div#project-cards div.card {
+.cards#project-cards div.card {
   margin-right: 3rem;
+  background-color: #F9F9FB;
 }
 
 .header#project-header {
