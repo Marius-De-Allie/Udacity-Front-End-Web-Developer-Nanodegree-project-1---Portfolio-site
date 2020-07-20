@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "my portfolio site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marius-De-Allie/Udacity-Front-End-Web-Developer-Nanodegree-project-1---Portfolio-site.git"
+  },
+  "author": "Marius De Allie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marius-De-Allie/Udacity-Front-End-Web-Developer-Nanodegree-project-1---Portfolio-site/issues"
+  },
+  "homepage": "https://github.com/Marius-De-Allie/Udacity-Front-End-Web-Developer-Nanodegree-project-1---Portfolio-site#readme",
+  "devDependencies": {}
+}

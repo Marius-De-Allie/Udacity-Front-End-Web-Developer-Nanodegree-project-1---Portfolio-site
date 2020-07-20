@@ -96,42 +96,121 @@
             <div class="description">
               <p id="name-text">Marius De Allie,</p>
 
-              highly driven and passionate front end developer, with a focus on JavaScript and React.
-              Proficient in vanilla JavaScript ES5, ES6+, HTML5, CSS3, React, Redux, React Router. Also very well versed in the use of popular tooling platforms such as webpack.
-              Adept in the use of NPM, Git version control, SASS, the terminal for scripting during the dev process and SQL querying.
-              I am passionate about problem solving and revel in the challenge and process of "attacking" a problem that needs solving through the use of technology (software developement). For me it is always a fun and engaging experience, going through the process of building out an application
+              highly driven and passionate front end developer, with a focus on JavaScript and the React library.
+              Proficient in JavaScript ES5, ES6+, ES2020, HTML5, CSS3|SASS, React, React-Native, Redux, React Router. Also very well versed in the use of popular tooling platforms such as webpack.
+              Adept in the use of; NPM, Git version control, the terminal for scripting during the dev process, Nodejs and Expressjs for implementation of backend servers, REST API, SQL querying, firebase and MongoDB document databases, testing libraries such as Jest, Enzyme, Cypress, etc for unit, intregration and end to end testing, and cPanel for website deployment and adminsitration.
+              I enjoy problem solving and revel in the challenge and process of "attacking" a problem that needs solving through the use of technology (software developement). For me it is always a fun and engaging experience, going through the process of building out an application
               or project from scratch, in most cases it is far from easy and always challenging, but I always come out of it being a stronger, more capable developer than I went in. That is one of the things that keeps me so passionate about development, it is that never ending quest to get better and make your code cleaner and more efficient.
               Always looking at your code and thinking to your self "I know it works perfectly fine, but how else could I have done it, how else could I acheive the same functionality using different means, how can I refactor and get my code cleaner and more concise".
             </div>
           </div>
         </div>
-        <div class="ui fluid card">
+        <div class="ui fluid card" id="section-card">
           <div class="content">
-            <a class="ui green ribbon label" id="languages">Programming Languages</a>
+            <a class="ui green ribbon label" id="languages">Skills | Expertise</a>
             <p></p>
 
             <!-- <div class="meta">Friend</div> -->
             <div class="description">
-              Extremely adept at the most heavily used languages, libraries and frameworks in today's Front end development landscape and always adding to my repertoire, constantly growing and evolving with the industry as it changes.
-              JavaScript ES5 | ES6+ | ESNext, React, Redux, React-Redux, HTML5, CSS3, jQuery, BootStrap and more...
+              Extremely adept in the use of the most in-demand languages, libraries, frameworks and tooling in today's Front end development landscape and always adding to my repertoire, constantly growing and evolving with the industry as it changes.<br />
+              <hr class="my-4"/>
+              JavaScript ES5 | ES6+ | ESNext, React, Redux, React-Redux, React-Native, HTML5, CSS3, SASS jQuery, SQL, firebase, REST API, GraphQL, Webpack, Babel, GIT version control, NPM.
               <div class="logos-container"> <!--70 commit - new div to hold logos -->
                 <a class="logo-links" id="js-link" href="https://en.wikipedia.org/wiki/JavaScript" title="JavaScript Wikipedia page" target="_blank"> <!--75 commit - add links for technology logos - JS-->
-                  <img src="images/128px-JavaScript-logo.png" alt="small JavaScript logo" width="64px" height="64px">
+                  <div class="skill-cards" id="js-card">
+                    <img src="images/logo-javascript.svg" alt="small JavaScript logo">
+                    <p class="skill-text">JavaScript</p>
+                  </div>
                 </a>
                 <a class="logo-links" id="react-link" href="https://reactjs.org/" title="ReactJs Homepage" target="_blank"> <!--80 commit - add links for CSS3 logo-->
-                  <img src="images/React-01.png" alt="small cyan Reactjs logo" width="74px" height="74px">
+                  <div class="skill-cards">
+                    <img src="images/react.svg" alt="small cyan Reactjs logo" />
+                    <p class="skill-text">React</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="react-native-link" href="https://reactnative.dev/" title="React-Native Homepage" target="_blank"> <!--80 commit - add links for CSS3 logo-->
+                  <div class="skill-cards">
+                    <img src="images/react-native.svg" alt="small black React Native logo">
+                    <p class="skill-text">React<br />Native</p>
+                  </div>
                 </a>
                 <a class="logo-links" id="html5-link" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" title="Mozilla Developer Network HTML5 page" target="_blank"> <!--79 commit - add links for html5 logo-->
-                  <img src="images/HTML5_Logo_128.png" alt="small HTML5 logo" width="64px" height="64px">
+                  <div class="skill-cards">
+                      <img src="images/html5.svg" alt="small HTML5 logo">
+                      <p class="skill-text">HTML5</p>
+                  </div>
                 </a>
                 <a class="logo-links" id="css3-link" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" title="CSS3 wikipedia page" target="_blank"> <!--80 commit - add links for CSS3 logo-->
-                  <img src="images/css-128px.png" alt="small blue CSS3 logo" width="64px" height="64px">
+                  <div class="skill-cards">
+                    <img src="images/css-3.svg" alt="small blue CSS3 logo">
+                    <p class="skill-text">CSS3</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="sass3-link" href="https://sass-lang.com/" title="SASS official Homepage" target="_blank"> <!--80 commit - add links for CSS3 logo-->
+                  <div class="skill-cards">
+                    <img src="images/sass-1.svg" alt="small SASS logo" />
+                    <p class="skill-text">SASS</p>
+                  </div>
                 </a>
                 <a class="logo-links" id="jquery-link" href="https://jquery.com/" title="jQuery official homepage" target="_blank"> <!--78 commit - add links for jquery logo -->
-                  <img src="images/jquery-icon.png" width="64px" height="64px" alt="small jQuery logo.">
+                  <div class="skill-cards">
+                    <img src="images/jquery-1.svg" alt="small jQuery logo.">
+                    <p class="skill-text">jQuery</p>
+                  </div>
                 </a>
-                <a class="logo-links" id="bootstrap-link" href="https://getbootstrap.com/" title="bootStrap official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
-                  <img src="images/bootstrap-icon.png" width="80px" height="80px" alt="small bootstrap logo.">
+                <a class="logo-links" id="redux-link" href="https://redux.js.org/" title="Reduxjs official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/redux.svg" alt="small purple redux logo.">
+                    <p class="skill-text">Redux</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="firebase-link" href="https://firebase.google.com/" title="Google firebase official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/firebase-1.svg" alt="small orange firebase flame logo.">
+                    <p class="skill-text">Firebase</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="webpack-link" href="https://webpack.js.org/" title="Webpack official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/webpack-icon.svg" alt="small blue webpack logo.">
+                    <p class="skill-text">Webpack</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="npm-link" href="https://www.npmjs.com/" title="NPM official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/npm.svg" alt="small red npm text logo.">
+                    <p class="skill-text">NPM</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="node-link" href="https://babeljs.io/" title="Nodejs official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/node-js-logo.svg" alt="small nodejs logo.">
+                    <p class="skill-text">Node</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="REST-link" href="https://en.wikipedia.org/wiki/Representational_state_transfer" title="RESTful API wikipedia page" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/REST.png" alt="small lime green REST API logo.">
+                    <p class="skill-text">REST API</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="graphQl-link" href="https://graphql.org/" title="GraphQL official homepage" target="_blank"> 
+                  <div class="skill-cards">
+                    <img src="images/graphql.svg" alt="small fuscia GraphQL logo.">
+                    <p class="skill-text">GraphQL</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="GIT-link" href="https://git-scm.com/" title="Git official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/git.svg" alt="small orange GIT logo.">
+                    <p class="skill-text">Git</p>
+                  </div>
+                </a>
+                <a class="logo-links" id="babel-link" href="https://babeljs.io/" title="Babeljs official homepage" target="_blank"> <!--81 commit - add links for bootStrap logo -->
+                  <div class="skill-cards">
+                    <img src="images/babel-10.svg" alt="small yellow babeljs logo.">
+                    <p class="skill-text">Babeljs</p>
+                  </div>
                 </a>
               </div>
             </div>
@@ -160,31 +239,31 @@
           <div class="card" id="one">
             <!-- <a href="https://brave-goodall-94765c.netlify.com/"> -->
               <div class="image">
-                <img src="images/architecture-black-and-white-challenge-chance-277593.jpg">
+                <img src="images/happy-woman-shopping-online-at-home-3769747.jpg">
               </div>
               <div class="content">
-                <div class="ui green header" id="project-sub">Would You Rather</div>
+                <div class="ui green header" id="project-sub">Lion Clothing Store</div>
                 <div class="meta">
-                <p class="stack-text">Created using: React | Redux | HTML | CSS/SCSS</p>
-                <a class="ui blue right ribbon label" href="https://reactjs.org/" target="_blank">React|Redux</a>
+                <p class="stack-text">Created using: React | Redux | Node | HTML | CSS/SASS</p>
+                <a class="ui green right ribbon label" href="https://reactjs.org/" target="_blank">React|Redux|Node</a>
                 <p></p>
                 </div>
                 <div class="description">
-                  Would you rather is a single page web application developed using the React library, Redux library for application state management and react-router for app navigation. 
-                  The app allows the logged in user to answer poll questions, the user can also view results of previously answered questions. 
-                  Additionally the user has the ability to create new poll questions and view a user leaderboard.
+                  Lion Clothing store is a full featured, single page web application developed using the React library, Redux library for application state management, react-router for app navigation.
+                  I employed Google firebase for the application database, and user authentication. Payment processing has been implemented with a backend node server which works in conjunction with the Stripe payment API.
+                  <!-- A full suite of unit and integration test were implemented using the jest testing library along with the Enzyme test library. -->
                 </div>
               </div>
               <div class="extra content">
                 <!-- <div class="ui two buttons"> -->
-                  <div class="ui button">
-                    <a href="https://would-you-rather-4028c9.netlify.app/" target="_blank">
+                  <div class="ui button" onclick="window.open('https://lion-clothing.herokuapp.com/', 'mywindow');">
+                    <a href="https://lion-clothing.herokuapp.com/" target="_blank">
                       <i class="check circle outline icon"></i>
                       Launch
                     </a>
                   </div>
-                  <div class="ui button github">
-                    <a href="https://github.com/Marius-De-Allie/reactnd-Would-you-rather" target="_blank" title="Github link to Would you rather React|Redux project repository.">
+                  <div class="ui button github" onclick="window.open('https://github.com/Marius-De-Allie/Clothing-store', 'mywindow');">
+                    <a href="https://github.com/Marius-De-Allie/Clothing-store" target="_blank" title="Github link to Would you rather React|Redux project repository.">
                       <i class="github icon"></i>
                       GitHub 
                     </a>
@@ -198,12 +277,50 @@
           <div class="card" id="two">
             <!-- <a href="https://brave-goodall-94765c.netlify.com/"> -->
               <div class="image">
+                <img src="images/architecture-black-and-white-challenge-chance-277593.jpg">
+              </div>
+              <div class="content">
+                <div class="ui green header" id="project-sub">Would You Rather</div>
+                <div class="meta">
+                <p class="stack-text">Created using: React | Redux | HTML | CSS/SASS</p>
+                <a class="ui blue right ribbon label" href="https://reactjs.org/" target="_blank">React|Redux</a>
+                <p></p>
+                </div>
+                <div class="description">
+                  Would you rather is a single page web application developed using the React library, Redux library for application state management and react-router for app navigation. 
+                  The app allows the logged in user to answer poll questions, the user can also view results of previously answered questions. 
+                  Additionally the user has the ability to create new poll questions and view a user leaderboard.
+                </div>
+              </div>
+              <div class="extra content">
+                <!-- <div class="ui two buttons"> -->
+                  <div class="ui button" onclick="window.open('https://would-you-rather-4028c9.netlify.app/', 'mywindow');">
+                    <a href="https://would-you-rather-4028c9.netlify.app/" target="_blank">
+                      <i class="check circle outline icon"></i>
+                      Launch
+                    </a>
+                  </div>
+                  <div class="ui button github" onclick="window.open('https://github.com/Marius-De-Allie/reactnd-Would-you-rather', 'mywindow');">
+                    <a href="https://github.com/Marius-De-Allie/reactnd-Would-you-rather" target="_blank" title="Github link to Would you rather React|Redux project repository.">
+                      <i class="github icon"></i>
+                      GitHub 
+                    </a>
+                  </div>
+
+
+                <!-- </div> -->
+              </div>
+            <!-- </a> -->
+            </div>
+          <div class="card" id="three">
+            <!-- <a href="https://brave-goodall-94765c.netlify.com/"> -->
+              <div class="image">
                 <img src="images/rsz_book-stack-books-classic-knowledge-158834.jpg">
               </div>
               <div class="content">
                 <div class="ui green header" id="project-sub">My Reads</div>
                 <div class="meta">
-                <p class="stack-text">Created using: React | HTML | CSS/SCSS</p>
+                <p class="stack-text">Created using: React | HTML | CSS/SASS</p>
                 <a class="ui blue right ribbon label" href="https://reactjs.org/" target="_blank">React</a>
                 <p></p>
                 </div>
@@ -215,26 +332,23 @@
               </div>
               <div class="extra content">
                 <!-- <div class="ui two buttons"> -->
-                  <div class="ui button">
+                  <div class="ui button" onclick="window.open('https://brave-goodall-94765c.netlify.com/', 'mywindow');">
                     <a href="https://brave-goodall-94765c.netlify.com/" target="_blank">
                       <i class="check circle outline icon"></i>
                       Launch
                     </a>
                   </div>
-                  <div class="ui button github">
+                  <div class="ui button github" onclick="window.open('https://github.com/Marius-De-Allie/reactnd-project-myreads', 'mywindow');">
                     <a href="https://github.com/Marius-De-Allie/reactnd-project-myreads" target="_blank" title="Github link to MyReads React project repository.">
                       <i class="github icon"></i>
                       GitHub 
                     </a>
                   </div>
-
-
                 <!-- </div> -->
               </div>
             <!-- </a> -->
             </div>
-
-          <div class="card" id="three">
+          <div class="card" id="four">
             <div class="image">
               <img src="images/abstract-architecture-art-3026839.jpg">
             </div>
@@ -251,13 +365,13 @@
               </div>
             </div>
             <div class="extra content">
-              <div class="ui button">
+              <div class="ui button" onclick="window.open('https://marius-de-allie.github.io/fend-project-memory-game/', 'mywindow');">
                 <a href="https://marius-de-allie.github.io/fend-project-memory-game/" target="_blank">
                   <i class="check circle outline icon"></i>
                   Launch
                 </a>
               </div>
-              <div class="ui button github">
+              <div class="ui button github" onclick="window.open('https://github.com/Marius-De-Allie/fend-project-memory-game', 'mywindow');">
                 <a href="https://github.com/Marius-De-Allie/fend-project-memory-game" target="_blank" title="Github link to Memory game JavaScript project repository.">
                   <i class="github icon"></i>
                   GitHub 
@@ -266,7 +380,7 @@
 
             </div>
           </div>
-          <div class="card" id="four">
+          <div class="card" id="five">
             <div class="image">
               <img src="images/3-dice.jpg">
             </div>
@@ -280,18 +394,18 @@
               <div class="description">
                 Dice Game is a web based game, where the objective is to try to get to the winning score of 100 points first by rolling the dice.
                 If the current player gets a dice role of 1, then they lose a turn and control goes over to the other player.
-                The current player can chose to hold their currently accumaletated score for that round and by doing so gives control to the other player.
+                The current player can chose to hold their currently accumulated score for that round and by doing so gives control to the other player.
                 This app harnesses the power of JavaScript event handlers and DOM manipulation to achieve it's core functionality.
               </div>
             </div>
             <div class="extra content">
-              <div class="ui button">
+              <div class="ui button" onclick="window.open('https://marius-de-allie.github.io/Dice-Game---Pig/', 'mywindow');">
                 <a id="project-link" href="https://marius-de-allie.github.io/Dice-Game---Pig/" target="_blank">
                   <i class="check circle outline icon"></i>
                   Launch
                 </a>
               </div>
-              <div class="ui button github">
+              <div class="ui button github" onclick="window.open('https://github.com/Marius-De-Allie/Dice-Game---Pig', 'mywindow');">
                 <a href="https://github.com/Marius-De-Allie/Dice-Game---Pig" target="_blank" title="Github link to Dice game JavaScript project repository.">
                   <i class="github icon"></i>
                   GitHub 
@@ -306,7 +420,6 @@
           <hr class="my-4" id="main-divider">
         </section> -->
       </article>
-      <!-- 6. commit remove span below -->
       <!-- <span id="more-projects-text">
         <a href="#" title="projects page containing all projects">
         more projects</a>
@@ -314,12 +427,12 @@
       <!-- </main> -->
     </div>
     <footer>
-      <div class="footer-container"> <!--64 commit - add new div container for footer content-->
-        <!-- <section id="footer-text"> --><!-- 67 commit - add new section element to hold footer text -->
+      <div class="footer-container"> 
+        <!-- <section id="footer-text"> -->
           <div id="copyright-container">
             <span id="copyright">Developed by <a href="https://www.linkedin.com/in/mariusdeallie/"
-              title="Marius De Allie Front End Developer LinkedIn page." target="_blank">Marius De Allie <!--99 Commit - update href attr. value in #copyright to linked profile--> <!-- 100 commit - update title attr. value to 'Marius De Allie Front End Developer LinkedIn page.'-->
-            </a> <!-- 101 commit add target attr. with valu eof _blank to #copyright elem-->
+              title="Marius De Allie Front End Developer LinkedIn page." target="_blank">Marius De Allie 
+            </a>
             &copy2020 | All rights reserved.
             </span>
           </div>

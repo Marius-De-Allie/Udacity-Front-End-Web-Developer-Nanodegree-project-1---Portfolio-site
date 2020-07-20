@@ -1,6 +1,7 @@
 /* body {
   background-color: rgba(95, 98, 104, 0.191);
 } */
+
 /* #34eb58 */
 h1.header#main-header {
   margin-top: 2rem !important;
@@ -9,11 +10,9 @@ h1.header#main-header {
 .menu#nav-menu {
   margin-bottom: 2.5rem;
 }
-
 .menu#nav-menu a.active {
   cursor: default;
 }
-
 .menu#nav-menu a.item:hover {
   color: green;
 }
@@ -29,7 +28,7 @@ h1.header#main-header {
 
 div.content a.ui.green.ribbon.label#languages {
   cursor: default;
-}
+};
 
 a.label {
   text-decoration: none;
@@ -37,8 +36,8 @@ a.label {
 
 #section-card {
   background-color: #F9F9FB;
-}
 
+}
 .logos-container {
   padding-top: 1.5rem;
   display: flex;
@@ -47,7 +46,7 @@ a.label {
 }
 
 div.logos-container a.logo-links {
-  color: rgba(0, 0, 0, 0.68);
+  color: rgba(0,0,0,.68);
   text-decoration: none;
   display: block;
   width: 90px;
@@ -56,21 +55,26 @@ div.logos-container a.logo-links {
   margin-bottom: 10px;
   border: 1px solid lightgrey;
   border-radius: 2.5px;
-  transition: box-shadow 0.2s ease-in;
+  transition: box-shadow .2s ease-in;
+  
+  &:hover {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 5px 1px lightgrey;
+  }
+  div.skill-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%
+
+  }
 }
-div.logos-container a.logo-links:hover {
-  background-color: #fff;
-  border: none;
-  box-shadow: 0 0 5px 1px lightgrey;
-}
-div.logos-container a.logo-links div.skill-cards {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-}
+
+// div.logos-container a.logo-links div.skill-cards {
+// }
 
 /* div.logos-container div.skill-cards div.card-contents {
   display: flex;
@@ -78,16 +82,20 @@ div.logos-container a.logo-links div.skill-cards {
   justify-content: space-around;
   align-items: center;
 } */
+
 div.logos-container a.logo-links div.skill-cards img {
   padding-top: 10px;
+  // display: block;
 }
 
 /* div.logos-container a#npm-link {
   justify-self: center;
 } */
+
 div.logos-container a.logo-links div.skill-cards p.skill-text {
   padding-bottom: 10px;
 }
+
 
 /* div.logos-container a.logo-links:hover {
   transform: scale(1.05) ;
@@ -98,21 +106,27 @@ div.logos-container a.logo-links div.skill-cards p.skill-text {
   filter: grayscale(80%);
   transition: .2s;
 }  */
+
 .ui.button {
+  // box-sizing: border-box !important;
   border: 1px solid #e0e1e2;
 }
-
-.ui.button a {
+.ui.button a{
   text-decoration: none;
 }
-
 .button:hover {
+  // background-color: #32CD32 !important;
   background-color: #fff !important;
   border: 1px solid #32CD32;
+
+  a {
+    color: #32CD32 !important;
+  }
 }
-.button:hover a {
-  color: #32CD32 !important;
-}
+// .button a:hover {
+//   color: white !important;
+  
+// }
 
 .cards#project-cards {
   display: flex;
@@ -126,11 +140,9 @@ div#project-cards div.card {
 .header#project-header {
   margin-top: 4rem;
 }
-
 #project-sub {
-  margin-bottom: 0.75rem;
+  margin-bottom: .75rem;
 }
-
 p.stack-text {
   margin-top: 2rem;
   color: #0E6EB8;
@@ -140,41 +152,40 @@ p.stack-text {
   .cards#project-cards {
     justify-content: center;
   }
-
   #project-cards #one, #project-cards #two, #project-cards #three, #project-cards #four, #project-cards #five {
     margin-right: 2rem;
   }
+
 }
 footer {
   padding: 3rem;
   margin-top: 4rem;
-  background-color: #32CD32;
+  background-color:  #32CD32;
 }
-
 .footer-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
 footer a {
   color: black;
   text-decoration: none;
+  
 }
 
 footer a:hover {
   color: #fff;
-  text-decoration: none;
+  text-decoration: none ;
 }
 
-#footer-contact a {
+
+#footer-contact a { 
   display: inline-block;
-  margin: 0 0.25rem;
+  margin: 0 .25rem;
 }
-
 #footer-contact a:hover {
   transform: scale(1.05);
-  transition: transform 0.175s;
+  transition: transform .175s;
 }
 
 #footer-contact span {
@@ -187,22 +198,21 @@ footer a:hover {
   .footer-container {
     flex-direction: column;
     align-items: center;
+    
   }
-
   #copyright-container {
     margin-bottom: 1rem;
   }
 }
+
 @media screen and (max-width: 400px) {
   .extra {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .extra .button {
     margin-top: 1rem;
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
